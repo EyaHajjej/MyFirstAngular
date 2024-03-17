@@ -1,0 +1,27 @@
+<p>pipe works!</p>
+
+
+<div class="container">
+{{firstName |lowercase}}<br>
+{{firstName |uppercase}}<br>
+{{title |titlecase}}<br>
+{{title |slice:4}}<br>
+{{title |slice:4:10}}<br>
+{{student|json}}<br>
+
+<div>Date with Pipe:</div>
+{{myDate |date}}<br>
+{{myDate| date:'short'}}<br>
+{{myDate| date:'shortTime'}}<br>
+{{myDate| date:'shortDate'}}<br>
+
+
+{{2.314|number}}<br>
+{{2.314|number:'1.2-3'}}<br>
+{{2.314|number:'3.2-3'}}<br>
+{{2.314|number:'3.1-2'}}<br>
+{{0.25|percent}}<br>
+{{2.314|currency}}<br>
+{{2.314|currency:'EUR'}}<br>
+{{2.314|currency:'EUR':'code'}}<br>
+</div>
